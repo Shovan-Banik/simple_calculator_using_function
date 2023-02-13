@@ -15,34 +15,35 @@
         <section class="mt-12 w-2/4 mx-auto">
             <div class="bg-yellow-400 p-5">
                 <h2 class="text-3xl text-center font-semibold text-red-800">Output</h2>
-                <h2 class="text-3xl text-center font-semibold my-2">00</h2>
+                <h2 class="text-3xl text-center font-semibold my-2"><span id="final-output">00</span></h2>
             </div>
         </section>
         <section class="w-2/4 grid grid-cols-2 mx-auto gap-3 mt-12">
             <div class="bg-orange-500 p-5">
                 <h2 class="text-3xl text-center">Your First Number</h2>
-                <input type="number" name="" id="" class="block w-1/2 mx-auto mt-2">
+                <input type="number" name="" id="first-input" class="block w-1/2 mx-auto mt-2">
             </div>
             <div class="bg-pink-500 p-5">
                 <h2 class="text-3xl text-center">Your second Number</h2>
-                <input type="number" name="" id="" class="block w-1/2 mx-auto mt-2">
+                <input type="number" name="" id="second-input" class="block w-1/2 mx-auto mt-2">
             </div>
         </section>
         <section class="w-1/2 grid grid-cols-4 mt-12 mx-auto pl-16">
             <div>
-                <button class="bg-blue-800 w-1/2 hover:bg-black p-5 rounded mx-auto text-white font-bold text-3xl">+</button>
+                <button id="sum" class="bg-blue-800 w-1/2 hover:bg-black p-5 rounded mx-auto text-white font-bold text-3xl">+</button>
             </div>
             <div>
-                <button class="bg-red-800 w-1/2 hover:bg-black p-5 rounded mx-auto text-white font-bold text-3xl">-</button>
+                <button id="sub" class="bg-red-800 w-1/2 hover:bg-black p-5 rounded mx-auto text-white font-bold text-3xl">-</button>
             </div>
             <div>
-                <button class="bg-cyan-800 w-1/2 hover:bg-black p-5 rounded mx-auto text-white font-bold text-3xl">*</button>
+                <button id="mul" class="bg-cyan-800 w-1/2 hover:bg-black p-5 rounded mx-auto text-white font-bold text-3xl">*</button>
             </div>
             <div>
-                <button class="bg-orange-800 w-1/2 hover:bg-black p-5 rounded mx-auto text-white font-bold text-3xl">/</button>
+                <button id="div" class="bg-orange-800 w-1/2 hover:bg-black p-5 rounded mx-auto text-white font-bold text-3xl">/</button>
             </div>
         </section>
 
     </main>
+    <script src="calculation.js"></script>
 </body>
 </html>
