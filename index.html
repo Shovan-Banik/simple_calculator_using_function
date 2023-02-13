@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header>
+        <h1 class="text-5xl text-center mt-5 font-semibold">Simple Calculator</h1>
+    </header>
+    <main>
+        <section class="mt-12 w-2/4 mx-auto">
+            <div class="bg-yellow-400 p-5">
+                <h2 class="text-3xl text-center font-semibold text-red-800">Output</h2>
+                <h2 class="text-3xl text-center font-semibold my-2">00</h2>
+            </div>
+        </section>
+        <section class="w-2/4 grid grid-cols-2 mx-auto gap-3 mt-12">
+            <div class="bg-orange-500 p-5">
+                <h2 class="text-3xl text-center">Your First Number</h2>
+                <input type="number" name="" id="" class="block w-1/2 mx-auto mt-2">
+            </div>
+            <div class="bg-pink-500 p-5">
+                <h2 class="text-3xl text-center">Your second Number</h2>
+                <input type="number" name="" id="" class="block w-1/2 mx-auto mt-2">
+            </div>
+        </section>
+        <section class="w-1/2 grid grid-cols-4 mt-12 mx-auto pl-16">
+            <div>
+                <button class="bg-blue-800 w-1/2 hover:bg-black p-5 rounded mx-auto text-white font-bold text-3xl">+</button>
+            </div>
+            <div>
+                <button class="bg-red-800 w-1/2 hover:bg-black p-5 rounded mx-auto text-white font-bold text-3xl">-</button>
+            </div>
+            <div>
+                <button class="bg-cyan-800 w-1/2 hover:bg-black p-5 rounded mx-auto text-white font-bold text-3xl">*</button>
+            </div>
+            <div>
+                <button class="bg-orange-800 w-1/2 hover:bg-black p-5 rounded mx-auto text-white font-bold text-3xl">/</button>
+            </div>
+        </section>
+
+    </main>
+</body>
+</html>
